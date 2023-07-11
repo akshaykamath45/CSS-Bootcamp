@@ -1,359 +1,358 @@
 /* Business Card */
 .business-card {
-    background-color: #1de592;
-    font-family: "Poppins", sans-serif;
-    width: 360px;
-    padding: 80px 35px 90px 35px;
-    text-align: start;
-    font-weight: bold;
-    margin: 20px auto;
-    border-radius: 10px;
-  }
-  .business-card-title {
-    width: 100px;
-    font-size: 30px;
-    margin-bottom: 12px;
-  }
-  .business-card small {
-    font-size: x-small;
-  }
-  .business-btn {
-    background-color: white;
-    color: black;
-    border: none;
-    margin-top: 20px;
-    padding: 10px 32px;
-    border-radius: 18px;
-    font-weight: bold;
-  }
-  
-  /* Profile Card */
-  .profile-card {
-    font-family: "Poppins", sans-serif;
-    border: 1px solid lightgray;
-    width: 360px;
-    margin: 20px auto;
-    padding: 10px 30px;
-    border-radius: 12px;
-    font-weight: lighter;
-  }
-  .profile-info {
-    color: gray;
-  }
-  .user-image {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    padding: 10px 35px;
-    margin-bottom: 35px;
-  }
-  .profile-tab {
-    border: 1px solid lightgray;
-    margin: -10px -31px;
-    padding-left: 15px;
-    border-radius: 0px 0px 12px 12px;
-  }
-  .see-profile {
-    color: #1c73e8;
-  }
-  
-  /* Subscription Card */
-  .subscription-card {
-    width: 300px;
-    border: 1px solid lightgrey;
-    margin: 20px auto;
-    font-family: "Poppins", sans-serif;
-    border-radius: 12px;
-    padding: 5px 30px;
-  }
-  .subscription-img {
-    width: 360px;
-    height: 200px;
-    border-radius: 12px 12px 0px 0px;
-    margin: -5px -30px;
-  }
-  .subscription {
-    color: gray;
-    font-size: smaller;
-    margin-top: 30px;
-  }
-  .subscription:before {
-    content: "\1F512";
-    margin-right: 5px;
-    color: lightgrey;
-  }
-  .subscription-heading {
-    font-weight: lighter;
-    padding: 5px 0px;
-    padding-right: 100px;
-  }
-  .subscription-caption {
-    color: gray;
-    margin-top: -5px;
-    line-height: 23px;
-  }
-  .view-details-btn {
-    color: #1c73e8;
-    background-color: white;
-    border: 1px solid lightgray;
-    padding: 10px 24px;
-    margin: 15px 0px;
-    border-radius: 5px;
-  }
-  
-  /* Login Page */
-  .login-page {
-    width: 360px;
-    margin: 40px auto;
-    text-align: center;
-    border: none;
-    font-family: "Work Sans", sans-serif;
-  }
-  .logo-image {
-    height: 60px;
-    width: 180px;
-  }
-  .login-title {
-    font-size: 16px;
-    font-weight: bold;
-  }
-  .input {
-    width: 300px;
-    padding: 15px 15px;
-    margin: 6px auto;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    color: black;
-  }
-  
-  .login-btn {
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 24px;
-    padding: 12px 35px;
-    margin: 14px 0px;
-  }
-  
-  .login-caption {
-    color: #969696;
-    font-size: small;
-    display: block;
-    margin: 18px 0px;
-    line-height: 20px;
-  }
-  .sign-up {
-    color: black;
-  }
-  .terms-and-conditions {
-    color: #969696;
-    font-size: smaller;
-    padding: 10px 0px;
-    display: block;
-    margin: 30px 0px;
-  }
-  
-  /* Menu Card */
-  .menu-card {
-    width: 420px;
-    border: 1px solid lightgrey;
-    border-radius: 14px;
-    margin: 10px auto;
-    padding: 10px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .food-catalog {
-    position: relative;
-  }
-  .food-image {
-    width: 100%;
-    border-radius: 14px;
-    height: 280px;
-  }
-  .discount {
-    position: absolute;
-    bottom: 8px;
-    left: 0px;
-    color: white;
-    background-color: #266fef;
-    padding: 0px 10px 1px 10px;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
-  }
-  .time {
-    background-color: #f7f9f9;
-    position: absolute;
-    bottom: 8px;
-    right: 12px;
-    border-radius: 6px;
-    padding: 2px 6px 3px 5px;
-    font-size: small;
-    color: #363636;
-  }
-  .promoted {
-    background-color: #92878d;
-    color: lightgrey;
-    position: absolute;
-    top: 0;
-    left: 15px;
-    padding-top: 1px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 2.5px;
-    border-radius: 6px;
-    font-size: small;
-  }
-  .restaurant-name {
-    margin-top: 4px;
-    font-size: large;
-  }
-  .cuisine {
-    margin-top: -12px;
-    font-weight: 100px;
-    color: #363636;
-    margin-bottom: 25px;
-  }
-  hr {
-    color: lightgrey;
-  }
-  .max-safety {
-    position: relative;
-    padding: 0px 10px 10px 10px;
-    width: 100%;
-    height: 40px;
-  }
-  .logo-img {
-    position: absolute;
-    width: 80px;
-    height: 30px;
-    left: 0;
-    bottom: 7px;
-  }
-  .max-safety-caption {
-    position: absolute;
-    top: -12px;
-    left: 90px;
-    width: 305px;
-    color: gray;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-  
-  /* Exploration Card */
-  .exploration-card {
-    margin: 10px auto;
-    width: 600px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .image {
-    width: 100%;
-    border-radius: 20px;
-  }
-  .exploration-content {
-    position: relative;
-  }
-  
-  .exploration-title {
-    position: absolute;
-    color: white;
-    bottom: 150px;
-    right: 120px;
-    font-weight: bolder;
-    font-size: 28px;
-  }
-  .exploration-description {
-    position: absolute;
-    color: white;
-    bottom: 120px;
-    left: 25px;
-    font-size: small;
-  }
-  .exploration-btn-white {
-    position: absolute;
-    bottom: 70px;
-    right: 260px;
-    border: none;
-    color: black;
-    background-color: white;
-    border-radius: 24px;
-    padding: 12px 20px;
-  }
-  
+  background-color: #1de592;
+  font-family: "Poppins", sans-serif;
+  width: 360px;
+  padding: 80px 35px 90px 35px;
+  text-align: start;
+  font-weight: bold;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+.business-card-title {
+  width: 100px;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.business-card small {
+  font-size: x-small;
+}
+.business-btn {
+  background-color: white;
+  color: black;
+  border: none;
+  margin-top: 20px;
+  padding: 10px 32px;
+  border-radius: 18px;
+  font-weight: bold;
+}
+
+/* Profile Card */
+.profile-card {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid lightgray;
+  width: 360px;
+  margin: 20px auto;
+  padding: 10px 30px;
+  border-radius: 12px;
+  font-weight: lighter;
+}
+.profile-info {
+  color: gray;
+}
+.user-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 10px 35px;
+  margin-bottom: 35px;
+}
+.profile-tab {
+  border: 1px solid lightgray;
+  margin: -10px -31px;
+  padding-left: 15px;
+  border-radius: 0px 0px 12px 12px;
+}
+.see-profile {
+  color: #1c73e8;
+}
+
+/* Subscription Card */
+.subscription-card {
+  width: 300px;
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  font-family: "Poppins", sans-serif;
+  border-radius: 12px;
+  padding: 5px 30px;
+}
+.subscription-img {
+  width: 360px;
+  height: 200px;
+  border-radius: 12px 12px 0px 0px;
+  margin: -5px -30px;
+}
+.subscription {
+  color: gray;
+  font-size: smaller;
+  margin-top: 30px;
+}
+.subscription:before {
+  content: "\1F512";
+  margin-right: 5px;
+  color: lightgrey;
+}
+.subscription-heading {
+  font-weight: lighter;
+  padding: 5px 0px;
+  padding-right: 100px;
+}
+.subscription-caption {
+  color: gray;
+  margin-top: -5px;
+  line-height: 23px;
+}
+.view-details-btn {
+  color: #1c73e8;
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 10px 24px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+/* Login Page */
+.login-page {
+  width: 360px;
+  margin: 40px auto;
+  text-align: center;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+}
+.logo-image {
+  height: 60px;
+  width: 180px;
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.login-input {
+  width: 300px;
+  padding: 15px 15px;
+  margin: 6px auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: black;
+}
+
+.login-btn {
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 24px;
+  padding: 12px 35px;
+  margin: 14px 0px;
+}
+
+.caption {
+  color: #969696;
+  font-size: small;
+  display: block;
+  margin: 18px 0px;
+  line-height: 20px;
+}
+.sign-up {
+  color: black;
+}
+.terms-and-conditions {
+  color: #969696;
+  font-size: smaller;
+  padding: 10px 0px;
+  display: block;
+  margin: 30px 0px;
+}
+
+/* Menu Card */
+.menu-card {
+  width: 420px;
+  border: 1px solid lightgrey;
+  border-radius: 14px;
+  margin: 10px auto;
+  padding: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.food-catalog {
+  position: relative;
+}
+.food-image {
+  width: 100%;
+  border-radius: 14px;
+  height: 280px;
+}
+.discount {
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  color: white;
+  background-color: #266fef;
+  padding: 0px 10px 1px 10px;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+.time {
+  background-color: #f7f9f9;
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  border-radius: 6px;
+  padding: 2px 6px 3px 5px;
+  font-size: small;
+  color: #363636;
+}
+.promoted {
+  background-color: #92878d;
+  color: lightgrey;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding-top: 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 2.5px;
+  border-radius: 6px;
+  font-size: small;
+}
+.restaurant-name {
+  margin-top: 4px;
+  font-size: large;
+}
+.cuisine {
+  margin-top: -12px;
+  font-weight: 100px;
+  color: #363636;
+  margin-bottom: 25px;
+}
+hr {
+  color: lightgrey;
+}
+.max-safety {
+  position: relative;
+  padding: 0px 10px 10px 10px;
+  width: 100%;
+  height: 40px;
+}
+.logo-img {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  left: 0;
+  bottom: 7px;
+}
+.max-safety-caption {
+  position: absolute;
+  top: -12px;
+  left: 90px;
+  width: 305px;
+  color: gray;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* Exploration Card */
+.exploration-card {
+  margin: 10px auto;
+  width: 600px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.image {
+  width: 100%;
+  border-radius: 20px;
+}
+.exploration-content {
+  position: relative;
+}
+
+.exploration-title {
+  position: absolute;
+  color: white;
+  bottom: 150px;
+  right: 120px;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.exploration-description {
+  position: absolute;
+  color: white;
+  bottom: 120px;
+  left: 25px;
+  font-size: small;
+}
+.exploration-btn-white {
+  position: absolute;
+  bottom: 70px;
+  right: 260px;
+  border: none;
+  color: black;
+  background-color: white;
+  border-radius: 24px;
+  padding: 12px 20px;
+}
+
 /* Zomato Card */
 .zomato-card {
-    width: 670px;
-    margin: 10px auto;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .content{
-    position: relative;
-  }
-  .zomato-image {
-    width: 100%;
-    position: relative;
-  }
-  .header {
-    position: absolute;
-    color: white;
-    bottom: 140px;
-    left: 240px;
-    font-size: 50px;
-  }
-  .zomato-caption {
-    position: absolute;
-    color: white;
-    bottom: 140px;
-    left: 130px;
-    font-size: larger;
-  }
-  .input {
-    position: absolute;
-    padding: 10px 100px 10px 120px;
-    width: 300px;
-    bottom: 80px;
-    left: 40px;
-    border: 1px solid light-grey;
-    border-radius: 6px;
-  }
+  width: 670px;
+  margin: 10px auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.content {
+  position: relative;
+}
+.zomato-image {
+  width: 100%;
+  position: relative;
+}
+.header {
+  position: absolute;
+  color: white;
+  bottom: 140px;
+  left: 240px;
+  font-size: 50px;
+}
+.zomato-caption {
+  position: absolute;
+  color: white;
+  bottom: 140px;
+  left: 130px;
+  font-size: larger;
+}
+.input {
+  position: absolute;
+  padding: 10px 100px 10px 120px;
+  width: 300px;
+  bottom: 80px;
+  left: 40px;
+  border: 1px solid light-grey;
+  border-radius: 6px;
+}
 
-  /* LinkedIn Card */
-  .linkedin-card {
-    margin: 10px auto;
-    width: 450px;
-    padding: 0px 0px;
-    border: 1px solid lightgrey;
-    border-top-right-radius: 14px;
-    border-top-left-radius: 14px;
-    height: 250px;
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .linkedin-background {
-    position: relative;
-  }
-  .linkedin-background-image {
-    width: 100%;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    position: relative;
-    height: 120px;
-  }
-  .linkedin-user-image {
-    position: absolute;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    top: 80px;
-    left: 168px;
-    border: 2px solid white;
-  }
-  .linkedin-caption {
-    color: grey;
-    font-weight: normal;
-    margin-top: -26px;
-  }
-  
+/* LinkedIn Card */
+.linkedin-card {
+  margin: 10px auto;
+  width: 450px;
+  padding: 0px 0px;
+  border: 1px solid lightgrey;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+  height: 250px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.linkedin-background {
+  position: relative;
+}
+.linkedin-background-image {
+  width: 100%;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  position: relative;
+  height: 120px;
+}
+.linkedin-user-image {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  top: 80px;
+  left: 168px;
+  border: 2px solid white;
+}
+.linkedin-caption {
+  color: grey;
+  font-weight: normal;
+  margin-top: -26px;
+}
